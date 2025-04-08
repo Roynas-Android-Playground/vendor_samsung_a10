@@ -37,8 +37,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a10/proprietary/vendor/lib/hw/gralloc.exynos7884B.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.exynos7884B.so \
     vendor/samsung/a10/proprietary/vendor/lib/hw/hwcomposer.exynos7884B.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.exynos7884B.so \
     vendor/samsung/a10/proprietary/vendor/lib/hw/memtrack.exynos7884B.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.exynos7884B.so \
-    vendor/samsung/a10/proprietary/vendor/lib/hw/sensors.universal7884B.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.universal7884B.so \
-    vendor/samsung/a10/proprietary/vendor/lib/hw/thermal.universal7884B.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/thermal.universal7884B.so \
+    vendor/samsung/a10/proprietary/vendor/lib/hw/sensors.exynos7884B.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.exynos7884B.so \
+    vendor/samsung/a10/proprietary/vendor/lib/hw/thermal.exynos7884B.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/thermal.exynos7884B.so \
     vendor/samsung/a10/proprietary/vendor/lib/libOpenCv.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCv.camera.samsung.so \
     vendor/samsung/a10/proprietary/vendor/lib/libSEF.quram.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSEF.quram.so \
     vendor/samsung/a10/proprietary/vendor/lib/lib_SamsungRec_07010.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SamsungRec_07010.so \
@@ -52,7 +52,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a10/proprietary/vendor/lib64/hw/gralloc.exynos7884B.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.exynos7884B.so \
     vendor/samsung/a10/proprietary/vendor/lib64/hw/hwcomposer.exynos7884B.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.exynos7884B.so \
     vendor/samsung/a10/proprietary/vendor/lib64/hw/memtrack.exynos7884B.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/memtrack.exynos7884B.so \
-    vendor/samsung/a10/proprietary/vendor/lib64/hw/thermal.universal7884B.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/thermal.universal7884B.so \
+    vendor/samsung/a10/proprietary/vendor/lib64/hw/thermal.exynos7884B.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/thermal.exynos7884B.so \
     vendor/samsung/a10/proprietary/vendor/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl.so \
     vendor/samsung/a10/proprietary/vendor/lib64/libwrappergps.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwrappergps.so \
     vendor/samsung/a10/proprietary/vendor/tee/driver/00000000-0000-0000-0000-545241545453:$(TARGET_COPY_OUT_VENDOR)/tee/driver/00000000-0000-0000-0000-545241545453
