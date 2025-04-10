@@ -35,7 +35,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a10/proprietary/vendor/lib/hw/camera.exynos7884B.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.exynos7884B.so \
     vendor/samsung/a10/proprietary/vendor/lib/hw/gatekeeper.exynos7884B.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.exynos7884B.so \
     vendor/samsung/a10/proprietary/vendor/lib/hw/sensors.exynos7884B.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.exynos7884B.so \
-    vendor/samsung/a10/proprietary/vendor/lib/hw/thermal.exynos7884B.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/thermal.exynos7884B.so \
     vendor/samsung/a10/proprietary/vendor/lib/libOpenCv.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCv.camera.samsung.so \
     vendor/samsung/a10/proprietary/vendor/lib/libSEF.quram.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSEF.quram.so \
     vendor/samsung/a10/proprietary/vendor/lib/libexynoscamera3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynoscamera3.so \
@@ -44,7 +43,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a10/proprietary/vendor/lib/soundfx/libswdap.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libswdap.so \
     vendor/samsung/a10/proprietary/vendor/lib64/hw/android.hardware.gnss@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@2.1-impl.so \
     vendor/samsung/a10/proprietary/vendor/lib64/hw/gatekeeper.exynos7884B.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.exynos7884B.so \
-    vendor/samsung/a10/proprietary/vendor/lib64/hw/thermal.exynos7884B.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/thermal.exynos7884B.so \
     vendor/samsung/a10/proprietary/vendor/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl.so \
     vendor/samsung/a10/proprietary/vendor/lib64/libwrappergps.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwrappergps.so \
     vendor/samsung/a10/proprietary/vendor/tee/driver/00000000-0000-0000-0000-545241545453:$(TARGET_COPY_OUT_VENDOR)/tee/driver/00000000-0000-0000-0000-545241545453
