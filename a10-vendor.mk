@@ -6,8 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/a10
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/a10/proprietary/vendor/bin/hw/gpsd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/gpsd \
-    vendor/samsung/a10/proprietary/vendor/bin/hw/vendor.samsung.hardware.gnss@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.gnss@2.0-service \
     vendor/samsung/a10/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
     vendor/samsung/a10/proprietary/vendor/etc/init/vendor.samsung.hardware.gnss@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.gnss@2.0-service.rc \
     vendor/samsung/a10/proprietary/vendor/etc/libnfc-sec-vendor.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-sec-vendor.conf \
@@ -31,18 +29,21 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a10/proprietary/vendor/firmware/nfc/sec_s3nrn82_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nfc/sec_s3nrn82_firmware.bin \
     vendor/samsung/a10/proprietary/vendor/firmware/setfile_3l6.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_3l6.bin \
     vendor/samsung/a10/proprietary/vendor/firmware/setfile_5e9.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_5e9.bin \
-    vendor/samsung/a10/proprietary/vendor/lib/hw/audio.primary.exynos7884B.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.exynos7884B.so \
-    vendor/samsung/a10/proprietary/vendor/lib/hw/camera.exynos7884B.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.exynos7884B.so \
-    vendor/samsung/a10/proprietary/vendor/lib/hw/gatekeeper.exynos7884B.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.exynos7884B.so \
-    vendor/samsung/a10/proprietary/vendor/lib/hw/sensors.exynos7884B.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.exynos7884B.so \
-    vendor/samsung/a10/proprietary/vendor/lib/libOpenCv.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCv.camera.samsung.so \
-    vendor/samsung/a10/proprietary/vendor/lib/libSEF.quram.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSEF.quram.so \
-    vendor/samsung/a10/proprietary/vendor/lib/libexynoscamera3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynoscamera3.so \
-    vendor/samsung/a10/proprietary/vendor/lib/libuniapi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libuniapi.so \
-    vendor/samsung/a10/proprietary/vendor/lib/libuniplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libuniplugin.so \
-    vendor/samsung/a10/proprietary/vendor/lib/soundfx/libswdap.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libswdap.so \
-    vendor/samsung/a10/proprietary/vendor/lib64/hw/android.hardware.gnss@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@2.1-impl.so \
-    vendor/samsung/a10/proprietary/vendor/lib64/hw/gatekeeper.exynos7884B.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.exynos7884B.so \
-    vendor/samsung/a10/proprietary/vendor/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl.so \
-    vendor/samsung/a10/proprietary/vendor/lib64/libwrappergps.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwrappergps.so \
     vendor/samsung/a10/proprietary/vendor/tee/driver/00000000-0000-0000-0000-545241545453:$(TARGET_COPY_OUT_VENDOR)/tee/driver/00000000-0000-0000-0000-545241545453
+
+PRODUCT_PACKAGES += \
+    gatekeeper.exynos7884B \
+    audio.primary.exynos7884B \
+    camera.exynos7884B \
+    sensors.exynos7884B \
+    libOpenCv.camera.samsung \
+    libSEF.quram \
+    libexynoscamera3 \
+    libuniapi \
+    libuniplugin \
+    libswdap \
+    android.hardware.gnss@2.1-impl \
+    vendor.samsung.hardware.gnss@2.0-impl \
+    libwrappergps \
+    gpsd \
+    vendor.samsung.hardware.gnss@2.0-service
