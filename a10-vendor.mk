@@ -7,7 +7,6 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/a10/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
-    vendor/samsung/a10/proprietary/vendor/etc/init/vendor.samsung.hardware.gnss@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.gnss@2.0-service.rc \
     vendor/samsung/a10/proprietary/vendor/etc/libnfc-sec-vendor.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-sec-vendor.conf \
     vendor/samsung/a10/proprietary/vendor/etc/mixer_gains.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_gains.xml \
     vendor/samsung/a10/proprietary/vendor/etc/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml \
@@ -41,9 +40,4 @@ PRODUCT_PACKAGES += \
     libexynoscamera3 \
     libuniapi \
     libuniplugin \
-    libswdap \
-    android.hardware.gnss@2.1-impl \
-    vendor.samsung.hardware.gnss@2.0-impl \
-    libwrappergps \
-    gpsd \
-    vendor.samsung.hardware.gnss@2.0-service
+    libswdap
